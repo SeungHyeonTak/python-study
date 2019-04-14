@@ -1,0 +1,40 @@
+python_기본문법2
+list
+여러개의 값을 한번에 모을 수 있다.
+mutable(가변) - 값 변경 가능 list / dict
+immutable(불변) -값 변경 안됨 tuple / 문자열
+
+list 값 추가 하기
+.append()라는 메소드를 인해서 추가 가능함
+( list에서만 가능한 메소드 )
+빈 그릇이 있어야 담을 수 있다.
+
+list indexing
+주소 위치를 이용해서 각 요소에 접근 하는것
+[ 'a', 'b', 'c']   <<- element
+  0    1    2     <<- index
+del 로 지울 수 있다.
+list slicing << [ num : num ] 으로 잘라서 가져올 수 있다.
+
+list 메서드
+list.sort() << 리스트안의 값을 정렬한다.
+list.count('str') << 리스트안에 같은 요소가 몇개 있나 확인
+del list[?] 이렇게 지울 수 있다.
+len(list) 리스트안에 값이 몇개있는지 알려줌
+
+tuple
+여러개의 값을 한번에 모을수 있다 하지만 값을 변경할 수 없다.
+() << 소괄호를 쓴다.
+
+Packing 
+여러 개의 값을 한꺼번에 묶는 것을 말한다.
+ex) my_tuple = 1,2,3
+Unpacking
+묶여 있는 값을 풀어놓는 것을 말한다.
+num1,num2,num3 = my_tuple
+num1 = 1
+num2 = 2
+num3 = 3
+※num1과 num2의 수를 바꾸려면
+num1,num2= num2,num1 이렇게 바꿔줄 수 있다.
+

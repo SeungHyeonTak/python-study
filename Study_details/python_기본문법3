@@ -1,0 +1,59 @@
+python 반복문 / 조건문 / 연산자
+반복문
+for 변수 in 컨테이너:
+      실행할 명령 1
+        .....
+
+range()
+- for와 함께 자주 사용되는 내장함수
+- range(stop)은 0부터 stop전까지의 숫자를 나열
+- range(start, stop) 전까지의 숫자를 나열함
+
+List Comprehension
+-리스트를 만드는 강력하고 간결한 방법
+홀수만 구하라
+[number for number in numbers if number % 2 == 1] <<컴프리헨션
+(간결하게 만드는것)
+
+(Operator)
+할당연산자 (Assign)
+ = , += , -= , *= , /=
+
+산술연산자 (Arithmetic)
++, - ,* , / 이런것들
+특수연산자 
+**, // , % (제곱근, 정수 나누기 몫, 나머지)
+
+문자열 연산자(String)
++ >> 문자열끼리 연결한다
+*>> 문자열을 해당 수 만큼 반복한다.
+
+비교연산자(comparison)
+== 같은지 , != 다른지 , > 왼쪽이 더 큰지 , <오른쪽이 더 큰지
+>= 왼쪽이 더 크거나 같은지, <= 오른쪽이 더 크거나 같은지
+
+논리연산자(Logical)
+and - 둘다 True일때만 True
+or - 한 쪽이라도 True면 True
+not - True면 False, False면 True
+
+
+멤버쉽 연산자(Membership)
+리스트나 튜플등의안에 해당 값이 있는지 확인
+in / not in
+in - 있으면 True 없으면 False
+not in - 없으면 True 있으면 False
+
+if 조건문
+조건이 거짓인지 참인지 판단
+조건에 따라 처리의 흐름을 바꿉니다.
+elif~else
+
+반복문 while
+Loop
+조건에 따라서 참인지 거짓인지 판별한다.
+
+
+continue - 이걸 만나면 다시 조건문으로 다시 올라간다.
+break - 이걸 만나면 중단한다.(끝내버린다.)
+
