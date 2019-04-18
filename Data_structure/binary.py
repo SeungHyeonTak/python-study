@@ -24,6 +24,7 @@ if __name__ == "__main__":
     arr = binary(target,li)
 
     if arr:
+        print(li)
         print(li[arr])
     else:
         print(f"찾으시는 타겟 {target}가 없습니다.")
