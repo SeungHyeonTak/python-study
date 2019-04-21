@@ -2,7 +2,9 @@
 
 # class method와 static method의 차이는 상속에서 두드러지게 차이가 난다.
 
-class Language: # 자식클래스
+# 상속 예제 구현
+
+class Language: # 부모클래스
     default_language = "English"
 
     def __init__(self):
@@ -21,7 +23,7 @@ class Language: # 자식클래스
         print(self.show)
 
 
-class KoreanLanguage(Language): # 부모클래스
+class KoreanLanguage(Language): # 자식클래스(부모클래스)
     default_language = "한국어"
 
 if __name__ == "__main__":
